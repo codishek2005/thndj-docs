@@ -7,6 +7,7 @@ edit_uri: raw/main/docs/
 theme:
     icon:
         repo: fontawesome/brands/github
+    logo: assets/icon.png
     favicon: assets/icon.png
     name: material
     language: zh
@@ -50,6 +51,7 @@ nav:
             - items/seafood_platter.md
         - 料理品:
             - items/carp.md
+            - items/bread.md
         - 任务品:
             - items/ups.md
         - 特殊品:
