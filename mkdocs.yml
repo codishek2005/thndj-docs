@@ -5,75 +5,75 @@ repo_url: https://github.com/codishek2005/thndj-docs
 repo_name: codishek2005/thndj-docs
 edit_uri: raw/main/docs/
 theme:
-    icon:
-        repo: fontawesome/brands/github
-    logo: assets/icon.png
-    favicon: assets/icon.png
-    name: material
-    language: zh
-    palette:
-        primary: light blue
-    features:
-        - search.highlight
-        - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/icon.png
+  favicon: assets/icon.png
+  name: material
+  language: zh
+  palette:
+    primary: light blue
+  features:
+    - search.highlight
+    - content.action.view
 
 plugins:
-    - macros
-    - search:
-        lang: 
-            - en
-            - zh
-            - ja
+  - macros
+  - search:
+      lang:
+        - en
+        - zh
+        - ja
 
 markdown_extensions:
-    - pymdownx.critic
-    - pymdownx.caret
-    - pymdownx.tilde
-    - pymdownx.mark
-    - attr_list
-    - def_list
-    - tables
-    - meta
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.mark
+  - attr_list
+  - def_list
+  - tables
+  - meta
 
 nav:
-    - index.md
-    - installation.md
-    - 教程:
-        - tutorials/control.md
-    - 物品:
-        - 恢复品:
-            - items/bandage.md
-            - items/painkillers.md
-            - items/potion.md
-            - items/coffee.md
-            - items/gas.md
-        - 料理:
-            - items/seafood_platter.md
-        - 料理品:
-            - items/carp.md
-            - items/bread.md
-        - 任务品:
-            - items/ups.md
-        - 特殊品:
-            - items/linen.md
-            - items/diamond.md
-        - 装备品:
-            - items/wooden_sword.md
-            - items/railgun.md
-        - 装饰品:
-            - items/photon_thruster.md
-    - 剧情:
-        - chapters/intro.md
-        - chapters/c1.md
-        - chapters/c2.md
-        - chapters/c3.md
-        - chapters/c4.md
-        - chapters/c5.md
-        - chapters/c6.md
-        - chapters/c7.md
-        - chapters/c8.md
-        - chapters/c9.md
-        - chapters/ending.md
-    - 角色:
-        - characters/mokou.md
-        - characters/kaguya.md
+  - index.md
+  - installation.md
+  - 教程:
+      - tutorials/control.md
+  - 物品:
+      - 恢复品:
+          - items/bandage.md
+          - items/painkillers.md
+          - items/potion.md
+          - items/coffee.md
+          - items/gas.md
+      - 料理:
+          - items/seafood_platter.md
+      - 料理品:
+          - items/carp.md
+          - items/bread.md
+      - 任务品:
+          - items/ups.md
+      - 特殊品:
+          - items/linen.md
+          - items/diamond.md
+      - 装备品:
+          - items/wooden_sword.md
+          - items/railgun.md
+      - 装饰品:
+          - items/photon_thruster.md
+  - 剧情:
+      - chapters/intro.md
+      - chapters/c1.md
+      - chapters/c2.md
+      - chapters/c3.md
+      - chapters/c4.md
+      - chapters/c5.md
+      - chapters/c6.md
+      - chapters/c7.md
+      - chapters/c8.md
+      - chapters/c9.md
+      - chapters/ending.md
+  - 角色:
+      - characters/mokou.md
+      - characters/kaguya.md
