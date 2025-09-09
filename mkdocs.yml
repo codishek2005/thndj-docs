@@ -12,7 +12,19 @@ theme:
   name: material
   language: zh
   palette:
-    primary: light blue
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: brown
+      toggle:
+        icon: material/brightness-7
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      toggle:
+        icon: material/brightness-4
   features:
     - search.highlight
     - content.action.view
@@ -34,6 +46,9 @@ markdown_extensions:
   - def_list
   - tables
   - meta
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - index.md
